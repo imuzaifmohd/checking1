@@ -10,6 +10,6 @@ namespace customerDemoWebApiPart2_withEntityFramework.Data
         }
 
         public DbSet<Customer> Customers { get; set; }
-
+        public DbSet<Admin> Admins { get; set; }
     }
 }
